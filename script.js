@@ -1,6 +1,6 @@
 const playerInstance = jwplayer("player").setup({
   controls: true,
-  sharing: true,
+  sharing: false,
   displaytitle: true,
   displaydescription: true,
   
