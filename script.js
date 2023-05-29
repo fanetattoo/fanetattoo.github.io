@@ -39,21 +39,7 @@ const playerInstance = jwplayer("player").setup({
             "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/480/index.m3u8",
           label: "480p"
         },
-        {
-          file:
-            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/360/index.m3u8",
-          label: "360p"
-        },
-        {
-          file:
-            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/240/index.m3u8",
-          label: "240p"
-        },
-        {
-          file:
-            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/160/index.m3u8",
-          label: "160p"
-        }
+      
       ],
       captions: [
         {
