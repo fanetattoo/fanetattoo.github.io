@@ -9,11 +9,6 @@ const playerInstance = jwplayer("player").setup({
     name: "netflix"
   },
 
-  logo: {
-    file:
-      "https://4.bp.blogspot.com/-MPLcX7ngGFI/YI0-Doq-kiI/AAAAAAAAJiY/wBMG3NOoPvYmhFpK0ryBdVbUxoDAxlEQgCK4BGAYYCw/s412/cinexmoon-logoshica01.png",
-    link: "https://cinexmoon.blogspot.com"
-  },
 
   captions: {
     color: "#FFF",
@@ -26,57 +21,57 @@ const playerInstance = jwplayer("player").setup({
     {
       title: "Sprite Fright - Open Movie by Blender Studio",
       description: "You're Watching",
-      image: "https://i.ytimg.com/vi/_cMxraX_5RE/maxresdefault.jpg",
+      image: "https://img.bingewatch.to/xxrz/1200x600/529/9c/ae/9cae6636fd09700c4405a516bdccd1e9/9cae6636fd09700c4405a516bdccd1e9.jpg",
       sources: [
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.1080p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/1080/index.m3u8",
           label: "1080p",
           default: true
         },
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.720p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/720/index.m3u8",
           label: "720p"
         },
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.480p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/480/index.m3u8",
           label: "480p"
         },
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.360p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/360/index.m3u8",
           label: "360p"
         },
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.240p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/240/index.m3u8",
           label: "240p"
         },
         {
           file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.160p.webm",
+            "https://rouf.magnewscontent.org/_v10/2332aed648dc4d2579e4b2304b0e88ceaee5971c757d3728ee99da46184e581cfb44a9c3867b38a9382fb78c1813d5071df469f3f1d9eff8917670b6e7878ecb6bcc251ff9e0b97ef78e92658272d4c4c3a3d8cf660ce4a48b5b8e928b8435a8b031cde3bf25d14bd0b434a944dbee0185498ca01b4efc5534c937e98e45aecf/160/index.m3u8",
           label: "160p"
         }
       ],
       captions: [
         {
           file:
-            "https://raw.githubusercontent.com/iPingOi/jwplayer/main/%5BBengali%5D%20Sprite%20Fright%20-%20Blender%20Open%20Movie.srt",
-          label: "Bangla",
+            "https://cc.2cdns.com/06/ae/06aed0d834b27e787383b45a6f45210a/eng-3.vtt",
+          label: "English",
           kind: "captions"
         },
         {
           file:
-            "https://raw.githubusercontent.com/iPingOi/jwplayer/main/%5BEnglish%5D%20Sprite%20Fright%20-%20Blender%20Open%20Movie.srt",
-          label: "English",
+            "https://cc.2cdns.com/06/ae/06aed0d834b27e787383b45a6f45210a/rum-24.vtt",
+          label: "Româna",
           kind: "captions",
           default: true
         },
         {
           file:
-            "https://raw.githubusercontent.com/iPingOi/jwplayer/main/%5BGerman%5D%20Sprite%20Fright%20-%20Blender%20Open%20Movie.srt",
+            "0",
           label: "German",
           kind: "captions"
         },
@@ -112,7 +107,7 @@ const playerInstance = jwplayer("player").setup({
         },
         {
           file:
-            "https://raw.githubusercontent.com/iPingOi/jwplayer/main/%5BSpanish%5D%20Sprite%20Fright%20-%20Blender%20Open%20Movie.srt",
+            "https://cc.2cdns.com/06/ae/06aed0d834b27e787383b45a6f45210a/spa-26.vtt",
           label: "Spanish",
           kind: "captions"
         }
