@@ -6013,10 +6013,20 @@
     }
 }(window.jwplayer));
 
-
 var jwDefaults = {
-    "key": "Zi+bbvc78xjfsKrzBNPDCLuoDgTba/5cBavVSKooUn7yUf9IxQduX7wWdGQ=",
-    "ph": 1,
-    "pid": "nout"
+  "aspectratio": "16:9",
+  "autostart": false,
+  "controls": true,
+  "displaydescription": false,
+  "displaytitle": false,
+  "height": 270,
+  "key": "Zi+bbvc78xjfsKrzBNPDCLuoDgTba/5cBavVSKooUn7yUf9IxQduX7wWdGQ=",
+  "ph": 1,
+  "pid": "nout",
+  "preload": "none",
+  "repeat": false,
+  "stretching": "uniform",
+  "width": "100%"
 };
 jwplayer.defaults = jwDefaults;
+
