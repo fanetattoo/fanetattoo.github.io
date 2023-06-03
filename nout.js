@@ -6013,6 +6013,12 @@
     }
 }(window.jwplayer));
 
+"logo"= {
+        "file": "https://1.bp.blogspot.com/-9m_cWCxACn4/YI1IzZkYbAI/AAAAAAAAJlw/IIGgEbBiVREvZ5-GQzNZVx0PCI0ych8hwCK4BGAYYCw/s1600/cinexmoon-logoshica01.png",
+        "link": "https://cinexmoon.blogspot.com",
+        "hide": "false",
+        "position": "top-left"
+    },
 
 var jwDefaults = {
   "autostart": false,
