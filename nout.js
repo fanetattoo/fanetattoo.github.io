@@ -6017,8 +6017,12 @@ var jwDefaults = {
   "aspectratio": "16:9",
   "autostart": false,
   "controls": true,
+  "sharing": false,
   "displaydescription": false,
   "displaytitle": false,
+  "width": '100%',
+  "aspectratio": '16:9',
+  "fallback": 'false',
   "height": 270,
   "key": "Zi+bbvc78xjfsKrzBNPDCLuoDgTba/5cBavVSKooUn7yUf9IxQduX7wWdGQ=",
   "ph": 1,
@@ -6030,3 +6034,7 @@ var jwDefaults = {
 };
 jwplayer.defaults = jwDefaults;
 
+
+  
+  
+     
