@@ -6030,11 +6030,6 @@ var jwDefaults = {
   "repeat": false,
   "stretching": "uniform",
   "width": "100%"
- "border-top-left-radius": "15px",
-  "border-top-right-radius": "15px",
-  "border-bottom-left-radius": "15px",
-  "border-bottom-right-radius": "15px",
-
 };
 jwplayer.defaults = jwDefaults;
 
