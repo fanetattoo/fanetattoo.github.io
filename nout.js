@@ -6021,6 +6021,7 @@
     },
 
 var jwDefaults = {
+  "doNotSaveCookies": false
   "autostart": false,
   "controls": true,
   "sharing": false,
