@@ -1,5 +1,13 @@
 
-(() => {
+/*!
+   JW Player version 8.27.1
+   Copyright (c) 2023, JW Player, All Rights Reserved
+   This source code and its use and distribution is subject to the terms
+   and conditions of the applicable license agreement.
+   https://www.jwplayer.com/tos/
+   This product includes portions of other software. For the full text of licenses, see
+   https://ssl.p.jwpcdn.com/player/v/8.27.1/notice.txt
+*/(() => {
     var e, t, n = {
             696: (e, t, n) => {
                 "use strict";
@@ -47,7 +55,8 @@
                     play: "Play",
                     playback: "Play",
                     playbackRates: "Playback Rates",
-                    player: "Video Player"
+                    player: "Video Player",
+                    poweredBy: "",
                     prev: "Previous",
                     related: {
                         autoplaymessage: "Next up in xx",
