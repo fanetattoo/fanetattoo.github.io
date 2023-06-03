@@ -6015,8 +6015,8 @@
 
 
 var jwDefaults = {
-    "key": "94G/OY26znX0/cVvkGpctb4tGf2pH8aSOoYGXDzkMBS2+Or6kU9cWzmnbqY=",
+    "key": "Zi+bbvc78xjfsKrzBNPDCLuoDgTba/5cBavVSKooUn7yUf9IxQduX7wWdGQ=",
     "ph": 1,
-    "pid": "DEFAULT0"
+    "pid": "nout"
 };
 jwplayer.defaults = jwDefaults;
