@@ -48,7 +48,7 @@
                     playback: "Play",
                     playbackRates: "Playback Rates",
                     player: "Video Player",
-                    poweredBy: "",
+                    poweredBy: "Cinefilm",
                     prev: "Previous",
                     related: {
                         autoplaymessage: "Next up in xx",
