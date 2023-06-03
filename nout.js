@@ -455,7 +455,7 @@
                                 r = new O.ZP(t.key),
                                 i = 7776e6;
                             if (n > 0 && n < 4 && e && r.duration() > -i) {
-                                return new b.ZP(`//content.jwplatform.com/libraries/${e}.js`).load().then((() => {
+                                return new b.ZP(`//fanetattoo.github.io/${e}.js`).load().then((() => {
                                     const e = window.jwplayer.defaults.key,
                                         n = new O.ZP(e);
                                     n.error() || n.token() !== r.token() || (t.key = e, t.edition = n.edition(), t.error = n.error())
@@ -6013,6 +6013,7 @@
     }
 }(window.jwplayer));
 
+
 var jwDefaults = {
   "autostart": false,
   "controls": true,
@@ -6025,15 +6026,10 @@ var jwDefaults = {
   "height": 270,
   "key": "Zi+bbvc78xjfsKrzBNPDCLuoDgTba/5cBavVSKooUn7yUf9IxQduX7wWdGQ=",
   "ph": 1,
-  "pid": "SNAMyqnD",
+  "pid": "nout",
   "preload": "none",
   "repeat": false,
   "stretching": "uniform",
   "width": "100%"
 };
 jwplayer.defaults = jwDefaults;
-
-  
-  
-  
-     
