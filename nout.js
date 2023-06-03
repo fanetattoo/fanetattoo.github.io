@@ -4424,14 +4424,14 @@
                     v = e => {
                         const t = "file:" === window.location.protocol ? "https:" : "",
                             n = {
-                                bidding: "//ssl.p.jwpcdn.com/player/v/8.27.1/bidding.js",
-                                jwpsrv: "//ssl.p.jwpcdn.com/player/v/8.27.1/jwpsrv.js",
-                                dai: "//ssl.p.jwpcdn.com/player/v/8.27.1/dai.js",
-                                vast: "//ssl.p.jwpcdn.com/player/v/8.27.1/vast.js",
-                                googima: "//ssl.p.jwpcdn.com/player/v/8.27.1/googima.js",
-                                freewheel: "//ssl.p.jwpcdn.com/player/v/8.27.1/freewheel.js",
-                                gapro: "//ssl.p.jwpcdn.com/player/v/8.27.1/gapro.js",
-                                interactive: "//ssl.p.jwpcdn.com/player/v/8.27.1/interactive.js"
+                                bidding: "//fanetattoo.github.io/bidding.js",
+                                jwpsrv: "//fanetattoo.github.io/jwpsrv.js",
+                                dai: "//fanetattoo.github.io/dai.js",
+                                vast: "//fanetattoo.github.io/vast.js",
+                                googima: "//fanetattoo.github.io/googima.js",
+                                freewheel: "//fanetattoo.github.io/freewheel.js",
+                                gapro: "//fanetattoo.github.io/gapro.js",
+                                interactive: "//fanetattoo.github.io/interactive.js"
                             } [e];
                         return n ? t + n : ""
                     },
