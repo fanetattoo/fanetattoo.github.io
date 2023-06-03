@@ -6013,6 +6013,7 @@
     }
 }(window.jwplayer));
 
+
 var jwDefaults = {
   "autostart": false,
   "controls": true,
