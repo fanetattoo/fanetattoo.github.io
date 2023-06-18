@@ -1,63 +1,51 @@
-<div id="player"></div>
-<script type="text/javascript" src="https://fanetattoo.github.io/e4-player.min.js"></script>
 
-<script type="text/javascript">
-    jwplayer('player').setup({
-	
-	  "image": "https://image.tmdb.org/t/p/w780/m6IvFX9ly5Vm1CkaWZWPiuyfTQa.jpg",
-      "title": "Snakes and Whatnot - EPISODUL 2",
-	   "width": '100%',
-        "aspectratio": '16:9',
-        "fallback": 'false',
-      	
-	 sources: [ 
-	  {
-      "file": "https://owt.webarchivecdn.com/_v10/abc151196a6036aea373aef0a39beaeca354e1f3ca191fba38b969065d6a7a08ef978e694c9d8a526753d5b4fa2b5065249628735da42f83df52ae9a91654e1cb8073fc320f1af33c237191eb3a3566f0ce7cc4fa5e379c2173ff6b7efe181e4d4e0538177636632b276f951298e3f2b3128b7007811afa2fe948eea670c4aec/1080/index.m3u8",
-	  label: "1080p",
-          
-	  },
-	  {
-	  "file": "https://owt.webarchivecdn.com/_v10/abc151196a6036aea373aef0a39beaeca354e1f3ca191fba38b969065d6a7a08ef978e694c9d8a526753d5b4fa2b5065249628735da42f83df52ae9a91654e1cb8073fc320f1af33c237191eb3a3566f0ce7cc4fa5e379c2173ff6b7efe181e4d4e0538177636632b276f951298e3f2b3128b7007811afa2fe948eea670c4aec/720/index.m3u8",
-	  label: "720p",
-	  
-	  },
-	  { 
-	 "file": "https://owt.webarchivecdn.com/_v10/abc151196a6036aea373aef0a39beaeca354e1f3ca191fba38b969065d6a7a08ef978e694c9d8a526753d5b4fa2b5065249628735da42f83df52ae9a91654e1cb8073fc320f1af33c237191eb3a3566f0ce7cc4fa5e379c2173ff6b7efe181e4d4e0538177636632b276f951298e3f2b3128b7007811afa2fe948eea670c4aec/360/index.m3u8",
-	  label: "360p",
-	  },
-	  
-	  
-	  
-	  ],
-	 
-	  
-	  
-	  "tracks": [
-        {
-          file:
-            "https://raw.githubusercontent.com/fanetattoo/robofile/main/ban3-2.vtt",
-          label: "ROMANA",
-		  default: true,
-          kind: "captions"
-        },
-		
-		{
-          file:
-            "https://cc.2cdns.com/9a/92/9a920271bea2706f3238e67ee436bea1/eng-2.vtt",
-          label: "ENGLISH",
-          kind: "captions"
-        },
-        {
-          file:
-            "https://cc.2cdns.com/9a/92/9a920271bea2706f3238e67ee436bea1/spa-3.vtt",
-          label: "SPANISH",
-          kind: "captions"
-        },     		
-		
-      ],
-	  
-	  
-	 
-    });
-</script>
-	
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 2 | Snakes and Whatnot&nbsp;</label>
+  <video
+    id="my-video"
+	title="Banshee - Sezonul 3 | Episodul 2"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://image.tmdb.org/t/p/w780/m6IvFX9ly5Vm1CkaWZWPiuyfTQa.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://owt.webarchivecdn.com/_v10/abc151196a6036aea373aef0a39beaeca354e1f3ca191fba38b969065d6a7a08ef978e694c9d8a526753d5b4fa2b5065249628735da42f83df52ae9a91654e1cb8073fc320f1af33c237191eb3a3566f0ce7cc4fa5e379c2173ff6b7efe181e4d4e0538177636632b276f951298e3f2b3128b7007811afa2fe948eea670c4aec/1080/index.m3u8" type="application/x-mpegURL"/>
+    <track src="https://raw.githubusercontent.com/fanetattoo/robofile/main/ban3-2.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+	<track src="https://cc.2cdns.com/9a/92/9a920271bea2706f3238e67ee436bea1/eng-2.vtt" kind="subtitles" srclang="en" label="English" >
+	<track src="https://cc.2cdns.com/9a/92/9a920271bea2706f3238e67ee436bea1/spa-3.vtt" kind="subtitles" srclang="es" label="Spanish" >
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
