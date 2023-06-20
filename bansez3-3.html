@@ -1,58 +1,50 @@
-<div id="player"></div>
-<script src="https://jwpsrv.com/library/Nr0Y2l8qEeOluyIACqoGtw.js"></script>
-<script type="text/javascript">
-    jwplayer('player').setup({
-	
-	  "image": "https://image.tmdb.org/t/p/w780/8f0bcdlkhSGk4IuOh43MR3mXx8a.jpg",
-      "title": "A Fixer of Sorts - EPISODUL 3",
-	   "width": '100%',
-        "aspectratio": '16:9',
-        "fallback": 'false',
-      	
-	 sources: [
-	 {
-      "file": "https://eno.dokicloud.one/_v10/1796c5fbf65306e0cd2a500930f5b5a27d02ea0e0cbd7f619010f04e0f45dd7d332c155e6e9960eaa3e9bd79940df4bfc26178931925dd5d5254e6a7fc232b1d8e4f3c51aec5b22519077878f3321e05793d50851caeb54b4b89ee494a8950cbc5d3d9df5dd164221070a3146567d985037f6bcb06d616d19b481829a1660440/1080/index.m3u8",
-	  label: "1080p",
-          default: true
-	  },
-	  {
-	  "file": "https://eno.dokicloud.one/_v10/1796c5fbf65306e0cd2a500930f5b5a27d02ea0e0cbd7f619010f04e0f45dd7d332c155e6e9960eaa3e9bd79940df4bfc26178931925dd5d5254e6a7fc232b1d8e4f3c51aec5b22519077878f3321e05793d50851caeb54b4b89ee494a8950cbc5d3d9df5dd164221070a3146567d985037f6bcb06d616d19b481829a1660440/720/index.m3u8",
-	  label: "720p",
-	  },
-	  { 
-	 "file": "https://eno.dokicloud.one/_v10/1796c5fbf65306e0cd2a500930f5b5a27d02ea0e0cbd7f619010f04e0f45dd7d332c155e6e9960eaa3e9bd79940df4bfc26178931925dd5d5254e6a7fc232b1d8e4f3c51aec5b22519077878f3321e05793d50851caeb54b4b89ee494a8950cbc5d3d9df5dd164221070a3146567d985037f6bcb06d616d19b481829a1660440/360/index.m3u8",
-	  label: "360p",
-	  },
-	  
-	  ],
-	 
-	  
-	  
-	  "tracks": [
-        {
-          file:
-            "https://raw.githubusercontent.com/fanetattoo/robofile/main/bashee-3-3.vtt",
-          label: "ROMANA",
-		  default: true,
-          kind: "captions"
-        },
-		{
-          file:
-            "https://cc.2cdns.com/14/d1/14d12512a1f8a178b2dc6e6b43c86dae/eng-2.vtt",
-          label: "ENGHLISH",
-          kind: "captions"
-        },
-		{
-          file:
-            "https://cc.2cdns.com/14/d1/14d12512a1f8a178b2dc6e6b43c86dae/spa-3.vtt",
-          label: "SPANISH",
-          kind: "captions"
-        },
-		
-      ],
-	  
-	  
-	 
-    });
-</script>
-	
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 3 | A Fixer of Sorts &nbsp;</label>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://image.tmdb.org/t/p/w780/8f0bcdlkhSGk4IuOh43MR3mXx8a.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://fanetattoo.github.io/bansez3-3.m3u8" type="application/x-mpegURL"/>
+    <track src="https://raw.githubusercontent.com/fanetattoo/robofile/main/bashee-3-3.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+	<track src="https://cc.2cdns.com/14/d1/14d12512a1f8a178b2dc6e6b43c86dae/eng-2.vtt" kind="subtitles" srclang="en" label="English" >
+	<track src="https://cc.2cdns.com/14/d1/14d12512a1f8a178b2dc6e6b43c86dae/spa-3.vtt" kind="subtitles" srclang="es" label="Spanish" >
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
