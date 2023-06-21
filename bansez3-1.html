@@ -1,3 +1,52 @@
-<script>
-document.write(unescape('%0A%20%20%3Clink%20href%3D%22https%3A//vjs.zencdn.net/8.3.0/video-js.css%22%20rel%3D%22stylesheet%22%20/%3E%0A%0A%20%20%3C%21--%20If%20you%27d%20like%20to%20support%20IE8%20%28for%20Video.js%20versions%20prior%20to%20v7%29%20--%3E%0A%20%20%3C%21--%20%3Cscript%20src%3D%22https%3A//vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js%22%3E%3C/script%3E%20--%3E%0A%0A%3Cstyle%3E%0A%20%20%20.player%20%7B%20width%3A%20%27100%25%27%2C%0A%20%20%20%20%20aspectratio%3A%20%2716%3A9%27%2C%0A%20%20%20%20%20fallback%3A%20%27false%27%2C%0A%09%20%7D%0A%20%20%20%20.video-container%20%7B%0A%20%20%20position%3A%20relative%3B%0A%7D%0A%0A.title-label%20%7B%0A%20%20%20position%3A%20absolute%3B%0A%20%20%20z-index%3A%209%3B%0A%20%20%20font-family%3A%20Oswald%20Light%3B%0A%20%20%20color%3A%20%23ffffff%3B%0A%20%20%20background-color%3A%20black%3B%20padding%3A%205px%3B%20%0A%20%20%20border-top-right-radius%3A%2015px%3B%0A%20%20%20border-bottom-right-radius%3A%2015px%3B%0A%20%20%20margin-top%3A%2015px%3B%0A%20%20%20%0A%20%20%0A%7D%0A%0A%3C/style%3E%0A%0A%3Cdiv%20class%3D%22video-container%22%3E%0A%20%20%20%3Clabel%20class%3D%22title-label%22%3E%20%26nbsp%3B%20%26nbsp%3B%20%26nbsp%3B%20%26nbsp%3BEpisodul%201%20%7C%20The%20Fire%20Trials%20%26nbsp%3B%3C/label%3E%0A%20%20%3Cvideo%0A%20%20%20%20id%3D%22my-video%22%0A%09%0A%20%20%20%20class%3D%22video-js%20vjs-theme-forest%22%0A%20%20%20%20controls%0A%20%20%20%20preload%3D%22auto%22%0A%20%20%20%20width%3D%22640%22%0A%20%20%20%20height%3D%22360%22%0A%20%20%20%20poster%3D%22https%3A//image.tmdb.org/t/p/w780/mgdVeRL1jeeUpv94Pr4bkUOjj67.jpg%22%0A%20%20%20%20data-setup%3D%27%7B%20%22fluid%22%3A%20true%20%7D%27%0A%20%20%3E%0A%20%20%20%20%3Csource%20src%3D%22https%3A//eno.dokicloud.one/_v10/78bd0bf2e0431a93d32db4b2d949daa25c6aa3bd995d1843fde371b8bd6766e76f7ea69a538f3e77faa5cfa21d69b2018e98ff9fa92c7f3b70cec348df5453e0f80a4ccbb9f2a463ff4e7588c12ee10e7106da6ff90bb3fa28144b61ce4ff81397150a200eb3b3160fb3198c58c18da63da15617716329dd55ee668e5f23f537/1080/index.m3u8%22%20type%3D%22application/x-mpegURL%22/%3E%0A%20%20%20%20%3Ctrack%20src%3D%22https%3A//raw.githubusercontent.com/fanetattoo/robofile/main/ban-3-1.vtt%22%20kind%3D%22subtitles%22%20srclang%3D%22ro%22%20label%3D%22Romanian%22%20default%3E%0A%09%3Ctrack%20src%3D%22https%3A//cc.2cdns.com/94/20/9420bfa10659d4c985a410ec81e28baf/eng-2.vtt%22%20kind%3D%22subtitles%22%20srclang%3D%22en%22%20label%3D%22English%22%20%3E%0A%09%3Ctrack%20src%3D%22https%3A//cc.2cdns.com/94/20/9420bfa10659d4c985a410ec81e28baf/spa-3.vtt%22%20kind%3D%22subtitles%22%20srclang%3D%22es%22%20label%3D%22Spanish%22%20%3E%0A%0A%20%20%3C/video%3E%0A%3C/div%3E%0A%20%20%3Cscript%20src%3D%22https%3A//vjs.zencdn.net/8.3.0/video.min.js%22%3E%3C/script%3E'))
-</script>
+
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 1 | The Fire Trials &nbsp;</label>
+  <video
+    id="my-video"
+	
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://image.tmdb.org/t/p/w780/mgdVeRL1jeeUpv94Pr4bkUOjj67.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://eno.dokicloud.one/_v10/78bd0bf2e0431a93d32db4b2d949daa25c6aa3bd995d1843fde371b8bd6766e76f7ea69a538f3e77faa5cfa21d69b2018e98ff9fa92c7f3b70cec348df5453e0f80a4ccbb9f2a463ff4e7588c12ee10e7106da6ff90bb3fa28144b61ce4ff81397150a200eb3b3160fb3198c58c18da63da15617716329dd55ee668e5f23f537/1080/index.m3u8" type="application/x-mpegURL"/>
+    <track src="https://raw.githubusercontent.com/fanetattoo/robofile/main/ban-3-1.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+	<track src="https://cc.2cdns.com/94/20/9420bfa10659d4c985a410ec81e28baf/eng-2.vtt" kind="subtitles" srclang="en" label="English" >
+	<track src="https://cc.2cdns.com/94/20/9420bfa10659d4c985a410ec81e28baf/spa-3.vtt" kind="subtitles" srclang="es" label="Spanish" >
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
