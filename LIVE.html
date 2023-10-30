@@ -1,0 +1,47 @@
+
+    <!-- Video.js base CSS -->
+<link href="https://unpkg.com/video.js@8/dist/video-js.min.css" rel="stylesheet">
+<!-- City1 -->
+<link href="https://unpkg.com/@videojs@8/themes@1/dist/city/index.css" rel="stylesheet">
+<!-- City2 -->
+<link href="https://unpkg.com/@videojs@8/themes@1/dist/city/index.css" rel="stylesheet">
+
+    <style>
+      .player {
+        margin: 5em auto;
+        width: 500px;
+      }
+    </style>
+
+<div class="player">
+      <h2>AMERICA EXPRESS - DRUMUL SOARELUI | 6 EPISODUL 8 LIVE</h2>
+      <video
+        id="city1-video"
+        class="video-js vjs-theme-city"
+        controls
+        preload="auto"
+        poster="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWJ-63NtrQh611HzImuhpCGzuAdeYPjNXcXCAtg8aDfLOxnern6km1OnI_XC-46H_yAqtxDEhSST8QRZHgbDtUcLHu4qY0y3_zV5IfgUByEDiEKTx-KVY2JCNV6AyNB4cN87-6CItVzxrHp-GgDLc3cWa46VKJ2lZnfr4NgofLMId6C4SAI7yvyssypCo/s1600/amoexpress.jpg"
+		logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
+        data-setup='{ "fluid": true }'
+      >
+        <source
+          src="https://live4ro.antenaplay.ro/a1/a1_3000k.m3u8?version=1&session=1V8nKYhVSkaI2StO2rCV&starttime=1698693581&endtime=1698700811&source=zuweb&token=pDQQRjipwskzc17PfEm0LFn5es4="
+          type="application/x-mpegurl"
+        />
+		<track kind="captions" src="#" srclang="ro" label="Romanian" default>
+      </video>
+    </div>
+	
+	
+	
+    <script src="https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.8/bitmovinplayer.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+	<script src="file:///C:/Users/Aspirel/Desktop/plugin.js"></script>
+<script src="file:///C:/Users/Aspirel/Desktop/plugin.css"></script>
+<script>
+  var player = videojs('my-video');
+
+  player.logo({
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png'
+  });
+</script>
