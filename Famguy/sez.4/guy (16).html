@@ -1,0 +1,49 @@
+<meta http-equiv="X-Frame-Options: ALLOW-FROM https://serialonlinehd.com"/>
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 16&nbsp;</label>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://raw.githubusercontent.com/fanetattoo/poznishchi/main/8.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://xex.stluserehtem.com/_v10/cb04f1a440d1c160808cca841f749d6fe36586d9e10c511a2f81ecb102f9172afe726e54f8f95dc67e8931f148cb8b2246ead4f1c1b9b0a03bbacd200f6fd040c0742f61435ba54f0b980e60cb450d93bc2d828f1afe967279e7d6c77db2cebf45559fd997c94e4fe3998b938b609a4df485ec7f2cf9f30710129ac829b07fca/playlist.m3u8" type="application/x-mpegURL">
+    <track src="https://raw.githubusercontent.com/fanetattoo/sez4partea/main/Ep16.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>

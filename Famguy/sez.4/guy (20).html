@@ -1,0 +1,49 @@
+<meta http-equiv="X-Frame-Options: ALLOW-FROM https://serialonlinehd.com"/>
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 20&nbsp;</label>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://cdn.jwplayer.com/v2/media/u8GUCUlr/thumbnails/7vq3g8ep.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://xex.stluserehtem.com/_v10/dd9764a98e99a947e6b90de82ea3f937e21e92fcf195efac1026729941f03d256a9f1f587501b826735e8a1a712e604898b71c8435974a13da1a3b5f3d6e0e9523dab8a9afef662d4baaf8493a9ae860f8fa1c72d96c6c563290506d391c9164c86ca2d571e01b04f481d65b95fa4150c8bc988c510f48489678c1a35f66deff/playlist.m3u8" type="application/x-mpegURL">
+    <track src="https://raw.githubusercontent.com/fanetattoo/sez4partea/main/Ep20.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>

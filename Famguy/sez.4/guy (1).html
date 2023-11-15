@@ -1,0 +1,49 @@
+<meta http-equiv="X-Frame-Options: ALLOW-FROM https://serialonlinehd.com"/>
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 1&nbsp;</label>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://raw.githubusercontent.com/fanetattoo/poznishchi/main/4.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://xex.stluserehtem.com/_v10/7b0c9bea8358f47be4b9708d02f594b9ca09b1f19b12f9d57d1c0618648e9c091b8dbece27b55a112a18ee8f7a22d17e24492d49d339d7d90853187fd5869f22b48b344f505e8b62e631591e43f9369d500c277df80b3f186d9452cda099dd75084905d49aa293e5d1b1f1538fb9560983969aa0b2f40ab60b346532e79b59f62175463ddcc90202844c9bb85bc094d3/playlist.m3u8" type="application/x-mpegURL">
+    <track src="https://raw.githubusercontent.com/fanetattoo/robofile/main/RO1.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>

@@ -1,0 +1,49 @@
+<meta http-equiv="X-Frame-Options: ALLOW-FROM https://serialonlinehd.com"/>
+
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+<style>
+   .player { width: '100%',
+     aspectratio: '16:9',
+     fallback: 'false',
+	 }
+    .video-container {
+   position: relative;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   font-family: Oswald Light;
+   color: #ffffff;
+   background-color: black; padding: 5px; 
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-top: 15px;
+   
+  
+}
+
+</style>
+
+<div class="video-container">
+   <label class="title-label"> &nbsp; &nbsp; &nbsp; &nbsp;Episodul 29&nbsp;</label>
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    poster="https://raw.githubusercontent.com/fanetattoo/poznishchi/main/3.jpg"
+    data-setup='{ "fluid": true }'
+  >
+    <source src="https://xex.stluserehtem.com/_v10/49f46307d2fde24358c3cccea48301dd0df12ef7197e1dcb9937ad0cc427b7d5321644625eeb33782cbfa07b093b0afd9040316ca0426ff6791f3a2cdcac9214589988a4a83e7d902af6a31355baaab4145d9916ded76500d7cbc4596d509cdd65a997b6af15838a1d3f453335e83cb1f1f0a14697ac19f3f5c9d7d1aa7cd62a/playlist.m3u8" type="application/x-mpegURL">
+    <track src="https://raw.githubusercontent.com/fanetattoo/sez4partea/main/Ep29.vtt" kind="subtitles" srclang="ro" label="Romanian" default>
+
+  </video>
+</div>
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
